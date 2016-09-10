@@ -80,9 +80,7 @@ social:
     url: "https://twitter.com/kgian24"
   - title: "github"
     url: "https://github.com/kaushalgianchandani"
-  - title: "rss"
-    url: "/feed.xml"
-
+  
 #404 page
 404-img: "/img/labtocat.png"
 
