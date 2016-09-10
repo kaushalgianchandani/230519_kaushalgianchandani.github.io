@@ -50,7 +50,7 @@ disqus-shortname: "kaushal.g"
 #timeline
 
 events:
-  - image: "/img/career/Cesar_NASA.jpg"
+  - image: "/img/timeline/ens_lyon.png"
     date: "2016"
     description: "NASA Earth and Space Science Graduate Fellow"
   - image: "/img/career/Cesar_GFD.png"
