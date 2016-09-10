@@ -14,3 +14,8 @@ force-https: True
 author: "Kaushal Gianchandani"
 lang: "en"
 title: "Kaushal Gianchandani"
+
+description: "Webpage of Kaushal Gianchandani"
+keywords: "kaushal gianchandani, niser, nonlinear dynamics, geophysical fluid dynamics"
+
+background-img: "../img/everybody_dies.png"
