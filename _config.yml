@@ -96,11 +96,9 @@ social:
 
 pages_list:
   About: 'about'
-  Career: 'career'
-  Code: 'code'
-  Collaborators: 'collaborators'
+  Timeline: 'timeline'
+  Supervisors: 'supervisors'
   Contact: 'contact'
-  Publications: 'publications'
 
 
 # Enable minification SASS
