@@ -70,7 +70,7 @@ events:
 career-img: "/img/career/Cesar_Freshman.png"
 
 #contact layout
-email: "crocha@ucsd.edu"
+email: "kaushal.g@niser.ac.in"
 
 #social
 social:
@@ -80,7 +80,7 @@ social:
     url: "https://twitter.com/kgian24"
   - title: "github"
     url: "https://github.com/kaushalgianchandani"
-  
+
 #404 page
 404-img: "/img/labtocat.png"
 
