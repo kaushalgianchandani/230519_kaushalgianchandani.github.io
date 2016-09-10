@@ -1,7 +1,7 @@
 
 # Site settings
 
-url: "https://panossakkos.github.io"
+url: "https://kaushalgianchandani.github.io"
 baseurl: ""
 force-https: True
 
@@ -13,6 +13,7 @@ pages_list:
   About: 'about'
   Blog: 'latest-post'
   Timeline: 'timeline'
+  Supervisors
   Contact: 'contact'
 
 web-app-mode: True
@@ -29,13 +30,13 @@ icon-192p: "/img/web-app/icon-192p.png"
 # HTML Head #
 #############
 
-author: "Panos Sakkos"
+author: "Kaushal Gianchandani"
 lang: "en"
-title: "{ Panos Sakkos }"
-short-title: "{ Panos }"
+title: "Kaushal Gianchandani"
+short-title: "KG"
 favicon: "/img/black-lock.png"
-description: "Blog of Panos Sakkos, blogging mainly about tech. Opinions expressed are mine."
-keywords: "panos, sakkos, technology, computer science, Pwn Mail, WriteRight, UoA, di, CERN, MDCN, Microsoft, Office Graph, Machine Learning, Databases, jekyll"
+description: "Personal webpage of Kaushal Gianchandani"
+keywords: "kaushal, gianchandani, niser, nonlinear dynamics, atmospheric sciences"
 
 ################
 # Intro layout #
