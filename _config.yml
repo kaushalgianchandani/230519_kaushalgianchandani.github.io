@@ -54,3 +54,31 @@ events:
 
 # First image of the Career timeline
 career-img: "/img/career/Cesar_Freshman.png"
+
+#Contact layout
+email: "kaushal.g@niser.ac.in"
+
+#social media
+  - title: "facebook"
+    url: "https://www.facebook.com/kaushal.gianchandani"
+  - title: "twitter"
+    url: "https://twitter.com/kgian24"
+  - title: "github"
+    url: "https://github.com/kaushalgianchandani"
+
+# don't alter a lot
+pages_list:
+  About: 'about'
+  Timeline: 'timeline'
+  Code: 'code'
+  Supervisors: 'supervisors'
+  Contact: 'contact'
+#  Publications: 'publications'
+
+
+# Enable minification SASS
+sass:
+  style: compressed
+
+# Exclusion list from the generated _site
+exclude: ["Rakefile", "LICENSE", "readme.markdown", "vendor"]
