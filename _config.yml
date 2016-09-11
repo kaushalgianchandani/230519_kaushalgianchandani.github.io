@@ -64,7 +64,7 @@ events:
     description: "Summer Intern at Indian Institute of Science Education and Research - Kolkata"
 
 # First image of the timeline
-career-img: "/img/timeline/Cesar_Freshman.png"
+timeline-img: "/img/timeline/joine_sps.png"
 
 #contact layout
 email: "kaushal.g@niser.ac.in"
