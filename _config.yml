@@ -56,13 +56,7 @@ events:
   - image: "/img/timeline/wapp.png"
     date: "December 2015"
     description: "Participant at the 10th Winter School on Astropartical Physics at Bose Institute - Darjeeling"
-  - image: "/img/timeline/imsc.png"
-    date: "June - July 2015"s
-    description: "Summer Research Fellow in Theoretical Physics at Institute of Mathematical Sciences (IMSc) - Chennai"
-  - image: "/img/timeline/iiserk.png"
-    date: "May - June 2014"
-    description: "Summer Intern at Indian Institute of Science Education and Research - Kolkata"
-
+  
 # First image of the Career timeline
 career-img: "/img/timeline/joined_sps.png"
 
