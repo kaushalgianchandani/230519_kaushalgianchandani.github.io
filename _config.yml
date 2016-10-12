@@ -94,7 +94,7 @@ pages_list:
   Timeline: 'timeline'
   Supervisors: 'supervisors'
   Contact: 'contact'
-  Publications and Posters: 'pnp'
+  Literature: 'literature'
 
 
 # Enable minification SASS
