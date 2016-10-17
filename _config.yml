@@ -13,7 +13,7 @@ pages_list:
   Blog: 'latest-post'
   Contact: 'contact'
 
-web-app-mode: True
+# web-app-mode: True
 
 #HTML head
 author: "Kaushal Gianchandani"
