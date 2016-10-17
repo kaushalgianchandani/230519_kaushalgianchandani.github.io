@@ -36,7 +36,6 @@ lines:	# You can add HTML Tags in the Text
   - text: "Geophysical fluid dynamics"
 
 #blog
-
 post-preview-words: 80
 
 jekyll-paginate: 5
@@ -93,9 +92,12 @@ pages_list:
   About: 'about'
   Timeline: 'timeline'
   Supervisors: 'supervisors'
-  Contact: 'contact'
   Literature: 'literature'
+  Blog: 'blog'
+  Contact: 'contact'
 
+# Pagination path
+paginate_path: "blog/page:num"
 
 # Enable minification SASS
 sass:
@@ -103,3 +105,7 @@ sass:
 
 # Exclusion list from the generated _site
 exclude: ["Rakefile", "LICENSE", "readme.markdown", "vendor"]
+
+gems:
+  - jekyll-paginate
+  - jemoji
