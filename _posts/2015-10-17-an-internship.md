@@ -13,7 +13,7 @@ This is the first thing which one has to make his or her mind about. NOT TO ASK 
 <li> Talk to your teachers and ask them what to do. </li>
 <li> Speak to your seniors and try to learn from their experience. </li>
 <li> Look on the internet, find out about the work of different people and then decide what you want to do. </li>
-<ul>
+</ul>
 
 Well as I've mentioned I'm not in complete agreement of the second point but I believe that the rest is absolutely sound advice. In this blog I want to focus particularly on the last point. The internet is a resource available at our disposal all the time. If used wisely it can help you find your desired internship with a lot of ease. What happens many a times to people is that they get lost on the web and end up giving upon the idea. This has happened to me as well. Based on my agreeably finite experience, I think what I'm going to tell you might help you deal with this problem.
 
