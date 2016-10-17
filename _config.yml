@@ -93,8 +93,10 @@ pages_list:
   Timeline: 'timeline'
   Supervisors: 'supervisors'
   Literature: 'literature'
-  Blog: 'blog'
+  Blog: 'latest-post'
   Contact: 'contact'
+
+web-app-mode: True
 
 # Pagination path
 paginate_path: "blog/page:num"
