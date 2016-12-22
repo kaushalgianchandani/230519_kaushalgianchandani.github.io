@@ -39,9 +39,11 @@ start-delay: 200	# Default 200
 delete-delay: 5000	# Default 5000
 lines:	# You can add HTML Tags in the Text
   - text: "Aspiring physicist"
+  - text: "Physical oceanography"
+  - text: "Geophysical fluid dynamics"
   - text: "Signal Processing"
   - text: "Nonlinear dynamics"
-  - text: "Geophysical fluid dynamics"
+
 
 #blog
 enable-gesture-navigation: False
