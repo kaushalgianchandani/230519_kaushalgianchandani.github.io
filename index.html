@@ -175,21 +175,22 @@ img {vertical-align: middle;}
 <!-- Contact information -->
 <section class="w3-container w3-content w3-padding-64" style="max-width:device-width" id="contact">
 
-   <div id="map" style="float:left;width:400px;height:400px; margin-right:10px;background:white"></div>
+   <div id="googleMap" style="float:left;width:400px; height:400px; margin-right:10px; background:white" ></div>
 
    <script>
    function myMap() {
-     var mapCanvas = document.getElementById("map");
-     var uluru = {lat:31.770774, lng: 35.1973};
-     var mapOptions = {
-       center: new google.maps.LatLng(uluru), zoom: 13
-     };
-     var map = new google.maps.Map(mapCanvas, mapOptions);
+     myCenter=new google.maps.LatLng(31.770774, 35.1973);
+     var mapOptions= {
+    center:myCenter,
+    zoom:13, scrollwheel: false, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
 
-     var marker = new google.maps.Marker({
-          position: uluru,
-          map: map
-        });
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
    }
    </script>
 
