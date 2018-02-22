@@ -1,7 +1,247 @@
----
-layout: index
-section-type: index
----
-<!--
-Hope you are visiting while not in your <a href="http://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html" target="_blank"> Dark Playground </a>
--->
+<!DOCTYPE html>
+<html>
+<title>Kaushal Gianchandani</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .2}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+</head>
+
+<link rel="shortcut icon" href="images/favicon.ico">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<body>
+
+
+<!-- Content will go here -->
+
+<!-- Navigation -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#aboutme" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <!-- <a href="#trajectory" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TRAJECTORY</a> -->
+    <a href="#people" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PEOPLE</a>
+    <a href="#literature" class="w3-bar-item w3-button w3-padding-large w3-hide-small">LITERATURE</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <!-- <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">Merchandise</a>
+        <a href="#" class="w3-bar-item w3-button">Extras</a>
+        <a href="#" class="w3-bar-item w3-button">Media</a>
+      </div>
+    </div> -->
+    <!-- <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a> -->
+  </div>
+</div>
+
+<!-- About Me -->
+<section class="w3-container w3-center w3-content w3-padding-64" style="max-width:device-width" id="aboutme">
+  <h2 class="w3-wide">Kaushal Gianchandani</h2>
+  <p class="w3-opacity"><i>Science enthusiast</i></p>
+
+  <div style="float:left; width:45%; margin-left:10px;">
+   <p class="w3-justify">Hi there! Thank you for your interest in my webpage.
+     I am a science enthusiast, who is currently pursuing a PhD in (Pale)Oceanography with
+     <a href="http://hezigildor.es.huji.ac.il/"target="_blank">Prof. Hezi Gildor</a>
+     at the  <a href="http://en.earth.huji.ac.il/"target="_blank">Institute of Earth Sciences</a>,
+     <a href="http://new.huji.ac.il/en"target="_blank">Hebrew University of Jerusalem</a>, Israel.
+
+     I graduated with a Master's degree in Physics from the <a href="http://www.niser.ac.in/"target="_blank">National Institute of Science Education and Reserach</a>, Bhubaneswar in May 2017.
+     During my undergraduate years, I devoted much of my time to
+     nonlinear dynamics and its manifestation in various physical phenomena but
+     my internship at <a href="http://www.ens-lyon.fr/en/"target="_blank">ENS de Lyon</a>
+     motivated me to dive into geophysical fluid dynamics.
+     For more information, you can take a look at my <a href="https://github.com/kaushalgianchandani/cv_kgianchandani/blob/master/cv_kgianchandani.pdf"target="_blank">curriculum vitae</a>.</p>
+   </div>
+
+  <div class="slideshow-container" style="float:right; width:45%; margin-right:10px;">
+    <!-- Slide Show -->
+      <img class="mySlides fade" src="images/everybody_dies.jpg"
+      style="width:500px;height:300px;">
+      <img class="mySlides fade" src="images/workdesk_lyon.jpg"
+      style="width:500px;height:300px;">
+      <img class="mySlides fade" src="images/farewell_niser.jpg"
+      style="width:500px;height:300px;">
+      <img class="mySlides fade" src="images/abhivyakti.jpg"
+      style="width:500px;height:300px;">
+    </div>
+</section>
+
+<!-- Trajectory -->
+<!-- <section class="w3-container w3-center w3-content w3-padding-64" style="max-width:device-width" id="trajectory">
+  <h2 class="w3-wide">Trajectory</h2>
+  <h3 class="w3-right">2017</h3>
+  <div class="w3-justify" style="float:left; width:100%; margin-left:10px;">
+    <p>
+    <b>2017-10-12</b> Begun Ph.D. in Oceanography at HUJI with Prof. Hezi Gildor.</br>
+    <b>2017-08-22</b> Accepted as a Doctoral candidate at the Hebrew University of Jerusalem, Israel (HUJI).</br>
+    <b>2017-06-06</b> Gradudated from NISER with M.Sc. in Physics, Batch: 2012-17.</br>
+    <b>2017-06-06</b> Gradudated from NISER with M.Sc. in Physics, Batch: 2012-17.</br>
+  </p>
+  </div>
+</section> -->
+
+<!-- Publications -->
+<section class="w3-container w3-center w3-content w3-padding-64" style="max-width:device-width" id="literature">
+  <h2 class="w3-wide">Literature</h2>
+  <h3 class="w3-left">Research Articles</h3>
+  <div class="w3-justify" style="float:left; width:100%; margin-left:10px;">
+    A1) <a href="#"target="_blank">VIEW ARTICLE</a>
+  </div>
+
+  <h3 class="w3-left">Conference Porceedings</h3>
+
+   <div class="w3-justify" style="float:left; width:100%; margin-left:10px;">
+     C1) <b>Gianchandani K.</b>, Menon S.N. and Sinha S., 2016, December.
+     Binary logic using spatially patterned deaths in chemical oscillators.
+     In <i>Conference on Nonlinear Systems & Dynamics IISER Kolkata</i> (Vol. 16, p. 18).
+     <a href="https://www.ncnsd.org/proceedings/proceedings2016/day1/int1/kg.pdf"target="_blank">VIEW ABSTRACT</a>
+   </div>
+
+</section>
+
+<!-- Contact information -->
+<section class="w3-container w3-center w3-content w3-padding-64" style="max-width:device-width" id="contact">
+
+<div id="map" style="float:left;width:400px;height:400px;margin-right:10px;background:white"></div>
+
+<script>
+function myMap() {
+  var mapCanvas = document.getElementById("map");
+  var uluru = {lat:31.770774, lng: 35.1973};
+  var mapOptions = {
+    center: new google.maps.LatLng(uluru), zoom: 13
+  };
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+
+  var marker = new google.maps.Marker({
+       position: uluru,
+       map: map
+     });
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD5y53Fc6bhgGfxuke6eCkbF0wv5eHorQ8&callback=myMap"></script>
+
+
+<div style="float:right; width:50%; margin-left:10px;">
+  <h2 class="w3-wide">Contact Me</h2>
+  <!-- <p class="w3-opacity"><i>Aspiring physicist</i></p> -->
+   <p class="w3-justify">If there is anything that you would to know about my
+     interests, profile, commitments etc, please feel free to contact
+     me. I also welcome any suggestions which you might
+     have regarding this webpage.</p>
+     <p><i class="fa fa-mobile" style="font-size:20px"> +972/0-50-471-4621</i></p>
+     <p><i class="fa fa-envelope" style="font-size:20px"> <a href="mailto:gianchandani.kaushal@gmail.com" target="_top">gianchandani.kaushal@gmail.com</a></i></p>
+     <p><i class="fa fa-building" style="font-size:20px"> The Fredy & Nadine Herrmann Institute of Earth Sciences, The Hebrew University, </br>
+       Edmond J. Safra Campus, </br> Givat Ram, Jerusalem, 91904, Israel.</i></p>
+   </div>
+
+
+</section>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+  <a href="https://www.facebook.com/kaushal.gianchandani/"target="_blank"><i class="fa fa-facebook-official"></i></a>
+  <a href="https://github.com/kaushalgianchandani/"target="_blank"><i class="fa fa-github"></i></a>
+  <a href="https://www.linkedin.com/in/kaushalgianchandani/"target="_blank"><i class="fa fa-linkedin"></i></a>
+  <p class="w3-medium">
+    Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
+  </p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 4000);
+}
+</script>
+
+
+
+</body>
+</html>
