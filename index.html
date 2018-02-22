@@ -19,12 +19,12 @@ img {vertical-align: middle;}
 /* Caption text */
 .text {
   color: #f2f2f2;
-  font-size: 15px;
+  font-size: 24px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
   width: 100%;
-  text-align: center;
+  text-align: left;
 }
 
 /* Number text (1/3 etc) */
@@ -60,7 +60,7 @@ img {vertical-align: middle;}
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4}
+  from {opacity: .6}
   to {opacity: 1}
 }
 
@@ -97,7 +97,7 @@ img {vertical-align: middle;}
     <div class="w3-dropdown-hover w3-hide-small">
       <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>
       <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="#" class="w3-bar-item w3-button">Under Construction</a>
+        <a href="#" class="w3-bar-item w3-button">Blog - Under Construction</a>
         <!-- <a href="#" class="w3-bar-item w3-button">Extras</a>
         <a href="#" class="w3-bar-item w3-button">Media</a> -->
       </div>
@@ -111,7 +111,7 @@ img {vertical-align: middle;}
   <h2 class="w3-wide w3-center">Kaushal Gianchandani</h2>
   <p class="w3-opacity w3-center"><i>Science enthusiast</i></p>
 
-  <div style="width:48%">
+  <div style="width:100%">
    <p class="w3-left w3-justify">Hi there! Thank you for your interest in my webpage.
      I am a science enthusiast, who is currently pursuing a PhD in (Pale)Oceanography with
      <a href="http://hezigildor.es.huji.ac.il/"target="_blank">Prof. Hezi Gildor</a>
@@ -125,16 +125,24 @@ img {vertical-align: middle;}
      For more information, you can take a look at my <a href="https://github.com/kaushalgianchandani/cv_kgianchandani/blob/master/cv_kgianchandani.pdf"target="_blank">curriculum vitae</a>.</p>
    </div>
 
-  <div class="w3-right slideshow-container" style="width:48%">
-    <!-- Slide Show -->
-      <img class="mySlides fade" src="images/everybody_dies.jpg"
-      style="width:100%">
-      <img class="mySlides fade" src="images/workdesk_lyon.jpg"
-      style="width:100%">
-      <img class="mySlides fade" src="images/farewell_niser.jpg"
-      style="width:100%">
-      <img class="mySlides fade" src="images/abhivyakti.jpg"
-      style="width:100%">
+   <!-- Slide Show -->
+   <div class="w3-center slideshow-container" style="width:80%">
+     <div class="mySlides fade">
+      <img src="images/everybody_dies.jpg" style="height:400px; width:800px">
+      <div class="w3-display-bottomleft w3-container w3-black w3-padding-16">Favorite quote</div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="images/workdesk_lyon.jpg" style="height:400px; width:800px">
+      <div class="w3-display-bottomleft w3-container w3-black w3-padding-16">The desk in ENS Lyon</div>
+    </div>
+    <div class="mySlides fade">
+      <img src="images/farewell_niser.jpg" style="height:400px; width:800px">
+      <div class="w3-display-bottomleft w3-container w3-black w3-padding-16">Farewell party @ NISER</div>
+    </div>
+    <div class="mySlides fade">
+      <img src="images/abhivyakti.jpg" style="height:400px; width:800px">
+      <div class="w3-display-bottomleft w3-container w3-black w3-padding-16">Abhivyakti 2013</div>
     </div>
 </section>
 
@@ -182,8 +190,9 @@ img {vertical-align: middle;}
      have regarding this webpage.</p>
      <p><i class="fa fa-mobile" style="font-size:20px"> +972/0-50-471-4621</i></p>
      <p><i class="fa fa-envelope" style="font-size:20px"> <a href="mailto:gianchandani.kaushal@gmail.com" target="_top">gianchandani.kaushal@gmail.com</a></i></p>
-     <p><i class="fa fa-map-marker" style="font-size:20px"> The Fredy & Nadine Herrmann Institute of Earth Sciences, The Hebrew University, </br>
-       Edmond J. Safra Campus, </br> Givat Ram, Jerusalem, 91904, Israel.</i></p>
+     <p><i class="fa fa-map-marker" style="font-size:20px"> Institute of Earth Sciences </br>
+       The Hebrew University </br>
+       Edmond J. Safra Campus </br> Givat Ram, Jerusalem, 91904, Israel.</i></p>
    </div>
 
 
@@ -235,7 +244,7 @@ function carousel() {
     myIndex++;
     if (myIndex > x.length) {myIndex = 1}
     x[myIndex-1].style.display = "block";
-    setTimeout(carousel, 4000);
+    setTimeout(carousel, 6000);
 }
 </script>
 
