@@ -91,7 +91,7 @@ img {vertical-align: middle;}
     <a href="index.html#aboutme" class="w3-bar-item w3-button w3-padding-large">HOME</a>
     <!-- <a href="#trajectory" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TRAJECTORY</a> -->
     <!-- <a href="#people" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PEOPLE</a> -->
-    <a href="index.html#publications" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PUBLICATIONS</a>
+    <a href="index.html#literature" class="w3-bar-item w3-button w3-padding-large w3-hide-small">LITERATURE</a>
     <!-- <a href="blog.html"class="w3-bar-item w3-button w3-padding-large w3-hide-small">BLOG</a> -->
     <a href="index.html#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
      <!-- <div class="w3-dropdown-hover w3-hide-small"> -->
@@ -126,9 +126,39 @@ img {vertical-align: middle;}
    </div>
   </section>
 
+  <!-- <section class="w3-container w3-content" style="max-width:device-width"> -->
+  <section class="w3-container w3-content" style="max-width:device-width">
+    <div class="w3-center slideshow-container" style="width:auto">
+     <div class="mySlides fade">
+       <!-- <img src="images/everybody_dies.jpg" style="height:300px; width:600px"> -->
+       <img src="images/everybody_dies.jpg" style="height:60%; width:100%">
+      <div class="w3-display-bottomleft w3-container w3-black w3-padding-16">Favorite quote</div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="images/sunrise_eilat.jpg" style="height:60%; width:100%">
+      <div class="w3-display-bottomleft w3-container w3-black w3-padding-16">Sunrise at IUI-Eilat</div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="images/rotating_tank.jpg" style="height:300px; width:600px">
+      <div class="w3-display-bottomleft w3-container w3-black w3-padding-16">Rotating fluid experiment in FDSE 2018, Cambridge</div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="images/farewell_niser.jpg" style="height:300px; width:600px">
+      <div class="w3-display-bottomleft w3-container w3-black w3-padding-16">Farewell party @ NISER</div>
+    </div>
+    <!-- <div class="mySlides fade">
+      <img src="images/abhivyakti.jpg" style="height:300px; width:600px">
+      <div class="w3-display-bottomleft w3-container w3-black w3-padding-16">Abhivyakti 2013</div>
+    </div> -->
+  </div>
+</section>
+
 <!-- Publications -->
-<section class="w3-container w3-content w3-padding-32" style="max-width:device-width" id="publications">
-  <h2 class="w3-wide w3-center">Publications (and other literature)</h2>
+<section class="w3-container w3-content w3-padding-32" style="max-width:device-width" id="literature">
+  <h2 class="w3-wide w3-center">Literature</h2>
   <h3 class="w3-left">Research Articles</h3>
   <div class="w3-justify" style="float:left; width:100%; margin-left:10px;">
     <!-- <ul> -->
@@ -150,16 +180,15 @@ img {vertical-align: middle;}
 
 <div style="width:100%">
   <h2 class="w3-wide w3-center">Contact Me</h2>
-   <p class="w3-justify">If there is anything that you'd like to know about my
+   <p class="w3-justify">If there is anything that you would want to know about my
      interests, profile, commitments etc, please feel free to contact
-     me. I also welcome any suggestions regarding this webpage.</p>
+     me. I also welcome any suggestions which you might
+     have regarding this webpage.</p>
      <p><i class="fa fa-mobile" style="font-size:20px"> +972/0-50-471-4621</i></p>
-     <p><i class="fa fa-envelope" style="font-size:20px"> <a href="mailto:kaushal.g@mail.huji.ac.il" target="_top">kaushal.g@mail.huji.ac.il</a></i></p>
-     <p><i class="fa fa-map-marker" style="font-size:20px">
-       Institute of Earth Sciences </br>
-       Hebrew University </br>
-       Edmond J. Safra Campus </br>
-       Givat Ram, Jerusalem - 9190401, Israel.</i></p>
+     <p><i class="fa fa-envelope" style="font-size:20px"> <a href="mailto:gianchandani.kaushal@gmail.com" target="_top">gianchandani.kaushal@gmail.com</a></i></p>
+     <p><i class="fa fa-map-marker" style="font-size:20px"> Institute of Earth Sciences </br>
+       The Hebrew University </br>
+       Edmond J. Safra Campus </br> Givat Ram, Jerusalem - 91904, Israel.</i></p>
    </div>
 
 
